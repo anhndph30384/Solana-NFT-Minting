@@ -1,0 +1,20 @@
+{
+    "name": "Stelle",
+    "symbol": "FO",
+    "description": "NFT for Stelle",
+    "image": "1.png",
+    "attributes": [
+        {
+            "trait_type": "Number",
+            "value": ""
+        }
+    ],
+    "properties": {
+        "files": [
+            {
+                "uri": ".png",
+                "type": "image/png"
+            }
+        ]
+    }
+}
