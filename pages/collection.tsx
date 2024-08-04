@@ -57,7 +57,6 @@ const Collection: NextPage = () => {
                 </form>
                 {/* MarketPlace */}
                 <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 px-2'>
-
                     {loading ? 
                         <div className='w-screen flex justify-center items-center py-10'><Loading /></div>
                     : nfts.map((nft, index) => 
@@ -65,9 +64,6 @@ const Collection: NextPage = () => {
                     )}
                 </div>
                 {/* NFT Card */}
-
-
-
             </div>
         </div>
     )
